@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/avenger06"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rotulo_titulo"
+        android:textColor="@color/vermelho_paulista"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/rotulo_subtitulo"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAndroid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Android" />
+
+        <TextView
+            android:id="@+id/tvIos"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="iOs" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/linha_base"
+        />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/linha_base_tenue"
+        />
+
+
+</LinearLayout>

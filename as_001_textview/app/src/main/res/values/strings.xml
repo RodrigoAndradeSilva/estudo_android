@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Program</string>
+
+
+    <string name="rotulo_titulo">Title</string>
+    <string name="rotulo_subtitulo">SubTitle</string>
+</resources>
