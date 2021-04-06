@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar CE"/>
+
+    <Button
+        android:id="@+id/btnLCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler CE"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnGSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar SD"/>
+
+    <Button
+        android:id="@+id/btnLSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler SD"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnGSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar SB"/>
+
+    <Button
+        android:id="@+id/btnLSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler SB"/>
+
+
+
+
+
+</LinearLayout>
