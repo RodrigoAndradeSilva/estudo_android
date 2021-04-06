@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">as_012_mvp</string>
+
+    <!-- Labels -->
+    <string name="label_tv_login">Login</string>
+    <string name="label_tv_name">Nome</string>
+    <string name="label_tv_password">Senha</string>
+    <string name="label_btn_cancel">Cancelar</string>
+    <string name="label_btn_login">Login</string>
+
+    <!-- Error -->
+    <string name="error_no_name">Erro: Nome é Obrigatório!!!</string>
+    <string name="error_no_password">Erro: Senha é Obrigatória!!!</string>
+    <string name="error_invalid_credentials">Erro: Credenciais Invalidas!!!</string>
+    <string name="nav_message">Indo Para o Menu!!!</string>
+</resources>
