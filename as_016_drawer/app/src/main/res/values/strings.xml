@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">as_016_drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Opcoes de Acessibilidade -->
+    <string name="drawer_aberto">Drawer Aberto</string>
+    <string name="drawer_fechado">Drawer Fechado</string>
+
+</resources>
