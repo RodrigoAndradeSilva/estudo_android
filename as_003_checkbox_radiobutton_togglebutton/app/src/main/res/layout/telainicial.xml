@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Checkbox/RadioButton/ToggleButton"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android" />
+
+    <CheckBox
+        android:id="@+id/cbIos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iOs" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rbF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/tbTomada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomada"
+        android:textOff="Desligado"
+        android:textOn="Ligado" />
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:checked="true"
+        android:button="@null"
+        android:background="@drawable/imgseletion" />
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="HE" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_acc"
+        android:drawableEnd="@drawable/ic_acc"
+        android:drawableTop="@drawable/ic_acc"
+        android:drawableBottom="@drawable/ic_acc"
+
+        android:text="Componente" />
+
+
+</LinearLayout>
