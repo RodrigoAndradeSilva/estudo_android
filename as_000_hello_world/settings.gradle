@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "as_000_hello_world"
